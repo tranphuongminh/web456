@@ -11,6 +11,8 @@ namespace web456.Models
     {
         public int id { get; set; }
 
+        public bool IsCanceled { get; set; }
+
         public ApplicationUser Lecturer { get; set; }
         [Required]
         public string LecturerId { get; set; }
